@@ -1,0 +1,107 @@
+{
+  "exchanges": {
+    "binance": {
+      "url": "https://www.binance.com/trade.html?symbol=",
+      "divider": "_",
+      "coinigy_id": "bina",
+      "tradingview_id": "BINANCE",
+      "reverse_pair": false,
+      "caps": true,
+      "triggers": [
+        "BINANCE",
+        "BINA",
+        "BANANENCE",
+        "BANANA",
+        ":BANANA:",
+        ":BINANCE:"
+      ]
+    },
+    "bittrex": {
+      "url": "https://bittrex.com/Market/Index?MarketName=",
+      "divider": "-",
+      "coinigy_id": "btrx",
+      "tradingview_id": "BITTREX",
+      "reverse_pair": true,
+      "caps": false,
+      "triggers": [
+        "BTRX",
+        "BITTREX",
+        "BUTTREX",
+        "SHITTREX",
+        ":BITTREX:"
+      ]
+    },
+    "cryptopia": {
+      "url": "https://www.cryptopia.co.nz/Exchange?market=",
+      "divider": "_",
+      "coinigy_id": "cpia",
+      "tradingview_id": "",
+      "reverse_pair": false,
+      "caps": false,
+      "triggers": [
+        "CPIA",
+        "CRYPTOPIA",
+        "CRYPTOP",
+        ":CRYPTOPIA:"
+      ]
+    },
+    "gate": {
+      "url": "https://gate.io/trade/",
+      "divider": "_",
+      "coinigy_id": "gate",
+      "tradingview_id": "",
+      "reverse_pair": false,
+      "caps": false,
+      "triggers": [
+        "GATE",
+        "GATEIO",
+        ":GATEIO:"
+      ]
+    },
+    "hitbtc": {
+      "url": "https://hitbtc.com/exchange/",
+      "divider": "-to-",
+      "coinigy_id": "hitb",
+      "tradingview_id": "HITBTC",
+      "reverse_pair": false,
+      "caps": false,
+      "triggers": [
+        "HITBIT",
+        "HITBTC",
+        "HITB",
+        ":HITBIT:"
+      ]
+    },
+    "kucoin": {
+      "url": "https://www.kucoin.com/#/trade.pro/",
+      "divider": "-",
+      "coinigy_id": "",
+      "tradingview_id": "",
+      "reverse_pair": false,
+      "caps": true,
+      "triggers": [
+        "KUCOIN",
+        "KU",
+        ":KUCOIN:"
+      ]
+    },
+    "liqui": {
+      "url": "https://liqui.io/#/exchange/",
+      "divider": "_",
+      "coinigy_id": "liqu",
+      "tradingview_id": "",
+      "reverse_pair": false,
+      "caps": true,
+      "triggers": [
+        "LIQUI",
+        "LIQU",
+        "LIQ",
+        ":LIQUI:"
+      ]
+    }
+  },
+  "shenanigans": {
+    "hobbelbobbel": "https://i.ytimg.com/vi/aMFdYIzZA-o/maxresdefault.jpg",
+    "wsad": "DLNRNDLRNDLDNDNDNLRNRNRNNNRLDNDLLLRNDNLRNRLDNRNLRNLRNDNL"
+  }
+}
