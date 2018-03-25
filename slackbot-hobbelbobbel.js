@@ -28,6 +28,11 @@ Array.prototype.diff = function(arr2) {
     return ret;
 };
 
+function freeze(time) {
+    const stop = new Date().getTime() + time;
+    while(new Date().getTime() < stop);
+}
+
 // The client will emit an RTM.AUTHENTICATED event on successful connection, with the `rtm.start` payload
 rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
   for (const c of rtmStartData.channels) {
@@ -174,8 +179,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
             console.log(responseMessage);
         }
 
-
-
+        freeze(300);
 
         let messageObject = {
             channel:   message.channel,
